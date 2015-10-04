@@ -1,4 +1,5 @@
 #include <cassert>
+#include <iostream>
 
 
 
@@ -11,22 +12,16 @@ void task_1()
 // Task 2
 void task_2()
 {
-    int a[5] = {0};
-    
-    //assert(!a[4]) or assert(a[4]) -- place here one of these and
-    //                                 explain your choice in commit msg
+	int a[5] = { 0 };
+	assert(!a[4]);
 }
 
 // returns zero
 int task_3_zero()
 {
-    // Task 3
-    // Hint 1: fix with initialization (not assignment)
-    // Hint 2: you can use only one zero and not five of them! cf. task 2
-    int a[5];
-    
-    assert(!a[4]);
-    return a[4]; // don't touch this!
+	int a[5];
+	assert(!a[4]);
+	return a[4];
 }
 
 void task_4()
